@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">UULMS</string>
+    <string name="uulms">Welcome To\nUttara University Learning Management System\n(UULMS)</string>
+    <string name="adminLoginPage">Admin Login</string>
+    <string name="stdLoginPage">Student Login</string>
+    <string name="facultyLoginPage">Faculty Login</string>
+    <string name="username_hint">Enter Your Username</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string-array name="dept">
+        <item>Select A Department</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ME</item>
+
+    </string-array>
+    <string-array name="courseCredit">
+        <item>Select A Couse Credit</item>
+        <item>3.0</item>
+        <item>1.5</item>
+        <item>4.5</item>
+    </string-array>
+    <string-array name="itemsName">
+        <item>Add Student Informarion</item>
+        <item>Add Faculty Informarion</item>
+    </string-array>
+
+    <string name="faculty_option1">Personal Information</string>
+    <string name="faculty_option2">Assigned Course\n&amp; Batch</string>
+    <string name="faculty_option3">Feedback\n</string>
+    <string name="faculty_option4">Upload File\n</string>
+
+    <string name="std_option1">Personal Information</string>
+    <string name="std_option2">View Course &amp; Faculty</string>
+    <string name="std_option3">Feedback\n</string>
+    <string name="std_option4">View File\n</string>
+
+    <string name="option1">Add Student Information</string>
+    <string name="option2">Add Faculty Information</string>
+    <string name="option3">View Student Information</string>
+    <string name="option4">View Faculty Information</string>
+    <string name="option5">Add Course</string>
+    <string name="option6">Assign Course</string>
+
+
+</resources>

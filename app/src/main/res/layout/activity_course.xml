@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPanel.AddCourse.CourseActivity">
+
+    <Spinner
+        android:id="@+id/select_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cyan_spinner_shap">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/courseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Course Name"
+        android:layout_margin="10dp"
+        android:background="@drawable/cyan_etext_shape"/>
+    <Spinner
+        android:id="@+id/selectCourseCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cyan_spinner_shap">
+
+    </Spinner>
+    <Button
+        android:id="@+id/saveCourseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/cyan_button_shap"
+        android:onClick="saveCourseData"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

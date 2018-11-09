@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stdViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/stdViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"/>
+  <TextView
+        android:id="@+id/stdViewBatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batch"
+        android:paddingLeft="5dp"
+      android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/stdViewDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batch"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+      android:textColor="@color/materialRed"/>
+
+
+</LinearLayout>

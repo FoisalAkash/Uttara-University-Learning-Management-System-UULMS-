@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AdminPanel.AddFaculty.AddFacultyActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    >
+
+    <EditText
+        android:id="@+id/facultyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Name"
+        android:layout_margin="10dp"
+        android:background="@drawable/red_etext_shape"/>
+    <EditText
+        android:id="@+id/facultyEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty E-mail"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/red_etext_shape"
+        />
+    <EditText
+        android:id="@+id/facultyAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Address"
+        android:layout_margin="10dp"
+        android:background="@drawable/red_etext_shape"/>
+
+    <Spinner
+        android:id="@+id/facultyDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/red_spinner_shap">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/facultyUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Username"
+        android:layout_margin="10dp"
+        android:maxLength="8"
+        android:background="@drawable/red_etext_shape"/>
+    <EditText
+        android:id="@+id/facultyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Password"
+        android:layout_margin="10dp"
+        android:maxLength="8"
+        android:background="@drawable/red_etext_shape"/>
+    <EditText
+        android:id="@+id/facultyDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Degree"
+        android:layout_margin="10dp"
+        android:background="@drawable/red_etext_shape"/>
+    <EditText
+        android:id="@+id/facultyMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:hint="Enter Faculty Mobile Number"
+        android:layout_margin="10dp"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:background="@drawable/red_etext_shape"/>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:onClick="saveData"
+        android:textAllCaps="false"
+        android:background="@drawable/red_button_shap"/>
+
+
+</LinearLayout>
+</ScrollView>

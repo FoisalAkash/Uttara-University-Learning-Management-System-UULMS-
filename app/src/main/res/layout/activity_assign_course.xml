@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPanel.AssignCourseToFaculty.AssignCourseActivity">
+
+    <Spinner
+        android:id="@+id/selectDeptForAssignCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cerise_spinner_shap">
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/selectBatchForAssignCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cerise_spinner_shap">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/selectCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cerise_spinner_shap">
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/selectfaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cerise_spinner_shap">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/assignCourseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/cerise_button_shap"
+        android:onClick="saveAssignCourse"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

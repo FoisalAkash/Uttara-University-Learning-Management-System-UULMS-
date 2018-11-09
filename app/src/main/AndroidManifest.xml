@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sky.coderx.uulms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity.LoginType">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminPanel.AddStudent.AddStudentActivity" />
+        <activity android:name=".AdminPanel.AdminPanel" />
+        <activity android:name=".AdminPanel.AddFaculty.AddFacultyActivity" />
+        <activity android:name=".AdminPanel.ViewStudent.ViewStdActivity" />
+        <activity android:name=".AdminPanel.ViewFaculty.ViewFacultyActivity" />
+        <activity android:name=".StudentPanel.StudentPanel" />
+        <activity android:name=".LoginPage.AdminLoginPage" />
+        <activity android:name=".LoginPage.FacultyLoginPage" />
+        <activity android:name=".LoginPage.StudentLoginPage" />
+        <activity android:name=".FacultyPanel.FacultyPanel" />
+        <activity android:name=".AdminPanel.AddCourse.CourseActivity" />
+        <activity android:name=".AdminPanel.AssignCourseToFaculty.AssignCourseActivity" />
+        <activity android:name=".FacultyPanel.Personalinfo.PersonalInfo" />
+        <activity android:name=".FacultyPanel.ViewAssignedCourseBatch.ViewAssignedCourse" />
+        <activity android:name=".FacultyPanel.UploadFile.UploadFile" />
+        <activity android:name=".FacultyPanel.ViewAssignedBatchesStudentList.ViewAssignedBStdList" />
+        <activity android:name=".FacultyPanel.Feedback.FeedBack" />
+        <activity android:name=".StudentPanel.StdPersonalInfo.StdPersonalInfo" />
+        <activity android:name=".StudentPanel.StdCoursewithFacultyInfo.StdViewCourse" />
+        <activity android:name=".StudentPanel.StdFeedback.StdFeedBack" />
+        <activity android:name=".StudentPanel.StdFileView.StdViewFile"></activity>
+    </application>
+
+</manifest>

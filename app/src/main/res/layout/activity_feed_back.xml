@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacultyPanel.Feedback.FeedBack">
+
+
+    <EditText
+        android:id="@+id/feedbackEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:hint="Enter your email"
+        android:layout_margin="10dp"
+        android:maxLines="1"
+        android:background="@drawable/blue_etext_shape"/>
+      <EditText
+        android:id="@+id/feedbackPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:hint="Enter your password"
+        android:layout_margin="10dp"
+          android:maxLines="1"
+          android:inputType="textPassword"
+        android:background="@drawable/blue_etext_shape"/>
+      <EditText
+        android:id="@+id/feedbackMsg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:hint="Enter your message"
+          android:gravity="top|left"
+        android:layout_margin="10dp"
+          android:maxLines="10"
+        android:background="@drawable/blue_etext_shape"/>
+
+
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Send"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/blue_button_shap"
+        android:onClick="feedbackData"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

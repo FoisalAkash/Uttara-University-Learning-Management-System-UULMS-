@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stdCourseViewBatchName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/stdCourseViewFacultyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/stdCourseViewFacultyNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:paddingLeft="5dp"/>
+
+
+</LinearLayout>

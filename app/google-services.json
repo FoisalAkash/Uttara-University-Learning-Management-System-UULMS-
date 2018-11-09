@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574923643204",
+    "firebase_url": "https://uulms-a0764.firebaseio.com",
+    "project_id": "uulms-a0764",
+    "storage_bucket": "uulms-a0764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574923643204:android:0e838e7f37df6fec",
+        "android_client_info": {
+          "package_name": "com.sky.coderx.uulms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574923643204-47f3srudjd3p5mf36s0l0m4rha6ibtlq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sky.coderx.uulms",
+            "certificate_hash": "e7976af1ae804a3076f38fb3eeb3af8bfb1685be"
+          }
+        },
+        {
+          "client_id": "574923643204-98g7u62blfasmhp9i5q9l4pvd853e175.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuhHZQ0WXbssInBi3ZY5wGwZgFYbVrJaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574923643204-98g7u62blfasmhp9i5q9l4pvd853e175.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
